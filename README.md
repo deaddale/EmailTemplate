@@ -1,5 +1,5 @@
 #Email Template
-Шаблон для верстки email рассылок.
+Адаптивный шаблон для верстки email рассылок. Демка http://welovecode.org/email-template-demo/
 
 Две команды для терминала
 
