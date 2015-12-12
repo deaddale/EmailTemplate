@@ -65,6 +65,11 @@ module.exports = function(grunt) {
 
         // Inline CSS
         inlinecss: {
+            options: {
+                webResources: {
+                    images: false,
+                }
+            },
             main: {
                 files: {
                     '<%= project.app %>/tpls/index-all.html': '<%= project.app %>/tpls/index-source-include.html'
