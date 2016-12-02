@@ -264,7 +264,7 @@ ol {
   max-width: 290px; }
 
 .three-columns .column {
-  max-width: 193.33333px; }
+  max-width: 193.333333333px; }
 
 .four-columns .column {
   max-width: 145px; }
@@ -272,21 +272,19 @@ ol {
 @media only screen and (max-width: 400px) {
   .two-columns .column {
     max-width: 100% !important; }
-
   .three-columns .column {
     max-width: 49.9% !important; }
-
   .four-columns .column {
     max-width: 100% !important; } }
+
 @media screen and (min-width: 401px) and (max-width: 635px) {
   .two-columns .column {
     max-width: 50% !important; }
-
   .three-columns .column {
     max-width: 33.33% !important; }
-
   .four-columns .column {
     max-width: 100% !important; } }
+
 .contacts .h1,
 .contacts .paragraph {
   text-align: center; }
@@ -301,6 +299,7 @@ ol {
 
 .header .h1 {
   text-align: center; }
+
 .header .paragraph {
   text-align: center;
   font-size: 11px;

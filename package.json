@@ -8,7 +8,7 @@
         "grunt-autoprefixer"    : "latest",
         "grunt-inline-css"      : "latest",
         "grunt-contrib-htmlmin" : "latest",
-        "grunt-contrib-sass"    : "latest",
+        "grunt-sass"            : "latest",
         "grunt-contrib-watch"   : "latest",
         "grunt-express-server"  : "latest",
         "express"               : "latest"

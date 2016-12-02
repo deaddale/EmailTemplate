@@ -45,6 +45,10 @@ module.exports = function(grunt) {
         // SASS
         sass: {
             dist: {
+                options: {
+                    style: 'expanded',
+                    sourceMap: true
+                },
                 files: {
                     '<%= project.assets %>/css/build/allcss.css': '<%= project.css %>'
                 }
@@ -117,7 +121,7 @@ module.exports = function(grunt) {
     // Загрузка модулей, которые предварительно установлены
     grunt.loadNpmTasks('grunt-express-server');
     grunt.loadNpmTasks('grunt-html-build');
-    grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-sass');
     grunt.loadNpmTasks('grunt-autoprefixer');
     grunt.loadNpmTasks('grunt-inline-css');
     grunt.loadNpmTasks('grunt-contrib-htmlmin');
