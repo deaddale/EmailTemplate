@@ -1,5 +1,4 @@
-#Email Template
-Адаптивный шаблон для верстки email рассылок. Демка http://welovecode.org/portfolio/email-templates/github/
+Адаптивный шаблон для верстки email рассылок. Демка https://deaddale.github.io/portfolio/email-templates/github/
 
 Две команды для терминала
 
